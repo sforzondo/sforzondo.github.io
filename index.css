@@ -1,0 +1,76 @@
+.indexWrapper{
+    background-image: url("./Pics/Asa Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+}
+
+.funnyScroll{
+    padding-top: 7vh;
+    display: block;
+    position: relative;
+    overflow:auto;
+    white-space: nowrap;
+    animation: infiniteScroll 8s linear infinite;
+    width: max-content;
+}
+
+.funnyScroll img{
+    height: 25vh;
+    width: auto;
+}
+
+.rainbowBackground{
+    height: 40vh;
+    width: 105%;
+    margin-left: -2%;
+    position: relative;
+    animation: rainbow 5s linear infinite;
+}
+
+.yap {
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.yap h1{
+    padding: 5vmin;
+    color:white;
+}
+
+@keyframes infiniteScroll {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes rainbow {
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: orange;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: purple;
+    }
+}
