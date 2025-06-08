@@ -72,19 +72,23 @@
     0%{
         background-color: red;
     }
-    20%{
+    15%{
         background-color: orange;
     }
-    40%{
+    30%{
         background-color: yellow;
     }
-    60%{
+    45%{
         background-color: green;
     }
-    80%{
+    60%{
         background-color: blue;
     }
-    100%{
+    75%{
         background-color: purple;
+    }
+
+    100%{
+        background-color: red;
     }
 }
