@@ -37,11 +37,24 @@
     background: rgba(0, 0, 0, 0.3);
     margin-left: 25vw;
     margin-right: 25vw;
+    padding: 5vmin;
+    color:white;
 }
 
 .yap h1{
-    padding: 5vmin;
-    color:white;
+    font-size: 3.5vmin;
+    display: inline;
+}
+
+.yap h2{
+    font-size: 2.5vmin;
+    margin-left: 3vw;
+        display: inline;
+}
+
+.yap p{
+    font-size: 2.3vmin;
+    margin-bottom: 10vh;
 }
 
 @keyframes infiniteScroll {
