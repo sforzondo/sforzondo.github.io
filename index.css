@@ -85,7 +85,7 @@
     }
 }
 
-@media (min-aspect-ratio:6/9){ /*laptop*/
+@media (min-aspect-ratio:16/9){ /*laptop*/
     .yap {
         background: rgba(0, 0, 0, 0.3);
         margin-left: 25vw;
@@ -95,7 +95,7 @@
     }
 }
 
-@media (max-aspect-ratio:6/9){ /*mobile*/
+@media (max-aspect-ratio:16/9){ /*mobile*/
     .yap {
         background: rgba(0, 0, 0, 0.3);
         margin-left: 2vw;
